@@ -1,0 +1,12 @@
+diff -urN mednaffe-0.6/src/mednaffe.c mednaffe-0.6-patched/src/mednaffe.c
+--- mednaffe-0.6/src/mednaffe.c	2013-12-09 22:30:12.000000000 +1100
++++ mednaffe-0.6-patched/src/mednaffe.c	2013-12-16 21:13:28.622397296 +1100
+@@ -433,7 +433,7 @@
+   if (!read_cfg(cfg_path, &gui))
+   {
+     show_error(
+-    "Mednafen version is not compatible.\nYou need 0.9.3x-WIP version.\n");
++    "Mednafen version is not compatible.\nYou need 0.9.3x-WIP version.\nIf you have it installed, make sure to run it\nat least one time from terminal first.");
+     return 1; /* Items are not freed here */
+   }
+   g_free(cfg_path);
