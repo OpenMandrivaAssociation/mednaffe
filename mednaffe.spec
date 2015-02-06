@@ -6,7 +6,7 @@
 Summary:	A front-end (GUI) for Mednafen emulator
 Name:		mednaffe
 Version:	0.6
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Emulators
 Url:		https://code.google.com/p/mednaffe/
