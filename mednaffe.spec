@@ -12,6 +12,11 @@ Group:		Emulators
 Url:		https://code.google.com/p/mednaffe/
 Source0:	https://sites.google.com/site/amatcoder/mednaffe/downloads/%{name}-%{version}.tar.gz
 Patch0:		mednaffe-0.6-error-message.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 Requires:	mednafen
 
